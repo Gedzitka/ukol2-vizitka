@@ -1,7 +1,10 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
-body {background-color:#b2bec3 ; font-family: "Nunito";}
+body {
+background-color:#b2bec3; 
+font-family: "Nunito";
+}
 
 .box {
 
@@ -12,7 +15,7 @@ position: relative;
 margin:150px auto ;
 border-radius:10px;
 padding: 30px;
-box-shadow:  5px 0 0 0 rgb(167, 165, 165)
+box-shadow:  5px 5px 0 0 rgb(184, 182, 182);
 }
 img {
 width:150px; 
@@ -39,7 +42,8 @@ padding: 10px;
 font-weight: bold;
 font-size: 18px;
 margin-bottom: 5px;
-border-radius: 5px;} 
+border-radius: 5px;
+text-transform: uppercase} 
 
 .tw:hover{background-color: #0b7bc1 ;}  
 .fc{
@@ -53,7 +57,8 @@ border-radius: 5px;}
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 5px;
-    border-radius: 10px;    
+    border-radius: 10px; 
+    text-transform: uppercase   
 }
 .fc:hover{
     background-color:#2b406e ;
