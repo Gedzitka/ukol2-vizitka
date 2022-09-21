@@ -1,13 +1,19 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+/* Pozadí,písmo,nadpis */
 body {
 background-color:#b2bec3; 
 font-family: "Nunito";
 }
+h1{ 
+color: red; 
+font-weight: bold; 
+}
 
+/* o Elišce */
 .box {
-
 width: 550px;
 background-color:white;
 text-align:justify; 
@@ -17,6 +23,8 @@ border-radius:10px;
 padding: 30px;
 box-shadow:  5px 5px 0 0 rgb(184, 182, 182);
 }
+
+/* fotka*/
 img {
 width:150px; 
 border-radius: 50%; 
@@ -28,9 +36,8 @@ border-color: white;
 border-style:solid;
 box-shadow:  5px 0 0 0 rgb(167, 165, 165)
 }
-h1{ 
-    color: red; font-weight: bold; }
 
+/* kontakt */
 .tw 
 {display: inline-block; 
 width: 100%; 
@@ -44,24 +51,23 @@ font-size: 18px;
 margin-bottom: 5px;
 border-radius: 5px;
 text-transform: uppercase} 
-
 .tw:hover{background-color: #0b7bc1 ;}  
 .fc{
-    display: inline-block; 
-    width: 100%; 
-    background-color:#3b5998;
-    color: white;
-    text-decoration: none;
-    border:0;
-    padding: 10px; 
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 5px;
-    border-radius: 10px; 
-    text-transform: uppercase   
+display: inline-block; 
+width: 100%; 
+background-color:#3b5998;
+color: white;
+text-decoration: none;
+border:0;
+padding: 10px; 
+font-weight: bold;
+font-size: 18px;
+margin-bottom: 5px;
+border-radius: 10px; 
+text-transform: uppercase   
 }
 .fc:hover{
-    background-color:#2b406e ;
+background-color:#2b406e ;
 }
 /*
 BARVY:
