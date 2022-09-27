@@ -21,7 +21,7 @@ position: relative;
 margin:150px auto ;
 border-radius:10px;
 padding: 30px;
-box-shadow:  5px 5px 0 0 rgb(184, 182, 182);
+box-shadow:  5px 5px 30px 0 gray;
 }
 
 /* fotka*/
@@ -30,11 +30,11 @@ width:150px;
 border-radius: 50%; 
 position: absolute; 
 left: 480px;
- top: -70px; 
+top: -70px; 
 border:3px;
 border-color: white;
 border-style:solid;
-box-shadow:  5px 0 0 0 rgb(167, 165, 165)
+box-shadow: 5px 5px 30px 0 gray
 }
 
 /* kontakt */
